@@ -243,8 +243,6 @@ h1 {
 }
 
 .info-body {
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,10 +251,11 @@ h1 {
     height: auto;
     width: 90%;
     border-radius: 40px;
+    transition: 0.3s;
 }
 
 .info-main {
-    width: 90%;
+    width: auto;
     border-radius: 40px;
     transition: 0.3s;
 }
@@ -271,6 +270,7 @@ h1 {
 }
 
 .media-main {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
