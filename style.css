@@ -269,16 +269,6 @@ h1 {
     text-align: center;
 }
 
-.media-main {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 0px;
-
-}
-
 .media1 {
     height: 275px;
     width: 266px;
@@ -316,9 +306,15 @@ h1 {
 }
 
 .media-main {
-    width: 90%;
     border-radius: 40px;
     transition: 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+
 }
 
 .media-main:hover {
