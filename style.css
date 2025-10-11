@@ -432,6 +432,24 @@ footer {
 }
 
 @media (max-width: 833px) {
+    .intro h3{
+        font-size: 25px;
+    }
+    .intro p{
+        font-size: 15px;
+    }
+    .para2 h4{
+        font-size: 25px;
+    }
+    .para2 {
+        width: 90%;
+    }
+    .para{
+        width: 90%;
+    }
+    .para h4{
+        font-size: 25px;
+    }
     .links {
         display: none;
     }
@@ -441,8 +459,8 @@ footer {
     }
 
     .update-card {
-        width: 400px;
-        height: 600px;
+        width: 350px;
+        height: 420px;
     }
 
     .media-card {
@@ -454,11 +472,11 @@ footer {
     }
     .media-card:first-child{
         height: 220px;
-        margin-top: -340px;
+        margin-top: -140px;
     }
     .update-card img {
-        height: 420px;
-        width: 350px;
+        height: 310px;
+        width: 200px;
         border-radius: 20px;
         margin-left: 0px;
     }
