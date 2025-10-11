@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 60px;
     /* background-color: #d9efd0; */
     background-color: white;
@@ -27,7 +27,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .header {
@@ -37,7 +37,7 @@ nav {
 
 .header img {
     height: 45px;
-    margin-left: 5vw;
+    margin-left: 5%;
 }
 
 .links {
@@ -72,14 +72,14 @@ nav {
 
 .hamburger {
     display: none;
-    margin-right: 5vw;
+    margin-right: 5%;
 }
 
 .video-body {
     position: relative;
     height: 601px;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,12 +251,12 @@ h1 {
     flex-direction: column;
     background-color: #d9efd0;
     height: auto;
-    width: 90vw;
+    width: 90%;
     border-radius: 40px;
 }
 
 .info-main {
-    width: 90vw;
+    width: 90%;
     border-radius: 40px;
     transition: 0.3s;
 }
@@ -292,7 +292,7 @@ h1 {
 }
 
 .para {
-    width: 60vw;
+    width: 60%;
     margin-left: 110px;
 }
 
@@ -310,13 +310,13 @@ h1 {
     flex-direction: column;
     background-color: #d9efd0;
     height: auto;
-    width: 90vw;
+    width: 90%;
     border-radius: 40px;
     margin-bottom: 50px;
 }
 
 .media-main {
-    width: 90vw;
+    width: 90%;
     border-radius: 40px;
     transition: 0.3s;
 }
@@ -349,7 +349,7 @@ h1 {
 }
 
 .para2 {
-    width: 60vw;
+    width: 60%;
     margin-left: 112px;
     margin-bottom: 30px;
 }
@@ -361,7 +361,7 @@ h1 {
 /* para here */
 .update {
     background-color: #d9efd0;
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding-bottom: 50px;
 
@@ -425,7 +425,7 @@ h1 {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 300px;
     background-color: rgb(1, 55, 1);
     color: white;
