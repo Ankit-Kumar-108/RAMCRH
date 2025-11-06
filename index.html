@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radharaman Ayurveda Medical College Research Hospital</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
+    
     <header>
         <nav>
             <div class="header">
@@ -35,44 +38,44 @@
             <div class="opacity">
             </div>
             <div class="text">
-                <h1>
+                <h1 data-aos="fade-down">
                     Ancient Wisdom, Modern Future
                 </h1>
-                <span class="p-1">
+                <span class="p-1" data-aos="fade-up" data-aos-delay="100">
                     Embrace the path to holistic wellness with
                 </span>
-                <span class="p-2">
+                <span class="p-2" data-aos="fade-up" data-aos-delay="200">
                     Radharaman Ayurveda Medical College Research Hospital.
                 </span>
-                <button>
+                <button data-aos="zoom-in" data-aos-delay="400">
                     APPLY NOW
                 </button>
             </div>
         </section>
         <section class="intro" id="Detail">
-            <h3>
+            <h3 >
                 Why Radharaman Ayurvedic Medical College Research Hospital?
             </h3>
-            <p>
+            <p data-aos="fade-up" data-aos-delay="200">
                 A Unique Blend Of Tradition And Innovation.
             </p>
             <div class="grids">
-                <div class="item">
+                <div class="item" data-aos="fade-up" data-aos-delay="0">
                     <div class="imogi">🎓</div>
                     <h3>Faculty</h3>
                     <p>Learn from renowned masters and scholars in the field.</p>
                 </div>
-                <div class="item">
+                <div class="item" data-aos="fade-up" data-aos-delay="0">
                     <div class="imogi">🌏</div>
                     <h3>Curriculum</h3>
                     <p>A curriculum that integrates education with experience.</p>
                 </div>
-                <div class="item">
+                <div class="item" data-aos="fade-up" data-aos-delay="0">
                     <div class="imogi">🏣</div>
                     <h3>Great Facilities</h3>
                     <p>Modern labs, a vast library, and serene learning spaces.</p>
                 </div>
-                <div class="item">
+                <div class="item" data-aos="fade-up" data-aos-delay="0">
                     <div class="imogi">👥</div>
                     <h3>Holistic Student Life</h3>
                     <p>Yoga, meditation, and community events for balanced growth.</p>
@@ -220,5 +223,11 @@
         </div>
     </footer>
 </body>
-
+ <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
 </html>
