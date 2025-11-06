@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    
+
     <header>
         <nav>
             <div class="header">
-                <img src="ASSETS/logo.png" alt="">
+                <img src="ASSETS/logo.png" alt="Radharaman College Logo">
             </div>
             <div class="links">
                 <a href="#About">About</a>
@@ -25,10 +25,21 @@
                 <a href="#Detail">Detail</a>
                 <a href="#Events">Event</a>
                 <a href="#Contact Us">Contact Us</a>
-                <Button>LOGIN </Button>
-            </div>
-            <div class="hamburger">
-                <img src="ASSETS/burger-menu-right-svgrepo-com.svg" alt="" height="30px" width="30px">
+                <button>LOGIN</button> </div>
+            <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+                <img src="ASSETS/burger-menu-right-svgrepo-com.svg" alt="Open menu" height="30px" width="30px">
+            </button>
+            <div class="menuISclicked" aria-hidden="true">
+                <button class="menu-close" aria-label="Close menu">✕</button>
+                <ul class="mobile-menu">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#College">College</a></li>
+                    <li><a href="#Hospital">Hospital</a></li>
+                    <li><a href="#Faculty">Faculty</a></li>
+                    <li><a href="#Detail">Detail</a></li>
+                    <li><a href="#Events">Events</a></li>
+                    <li><a href="#Contact Us">Contact</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -53,32 +64,40 @@
             </div>
         </section>
         <section class="intro" id="Detail">
-            <h3 >
+            <h3>
                 Why Radharaman Ayurvedic Medical College Research Hospital?
             </h3>
             <p data-aos="fade-up" data-aos-delay="200">
                 A Unique Blend Of Tradition And Innovation.
             </p>
             <div class="grids">
-                <div class="item" data-aos="fade-up" data-aos-delay="0">
-                    <div class="imogi">🎓</div>
-                    <h3>Faculty</h3>
-                    <p>Learn from renowned masters and scholars in the field.</p>
+                <div data-aos="fade-up" data-aos-delay="0">
+                    <div class="item">
+                        <div class="imogi">🎓</div>
+                        <h3>Faculty</h3>
+                        <p>Learn from renowned masters and scholars in the field.</p>
+                    </div>
                 </div>
-                <div class="item" data-aos="fade-up" data-aos-delay="0">
-                    <div class="imogi">🌏</div>
-                    <h3>Curriculum</h3>
-                    <p>A curriculum that integrates education with experience.</p>
+                <div data-aos="fade-up" data-aos-delay="0">
+                    <div class="item">
+                        <div class="imogi">🌏</div>
+                        <h3>Curriculum</h3>
+                        <p>A curriculum that integrates education with experience.</p>
+                    </div>
                 </div>
-                <div class="item" data-aos="fade-up" data-aos-delay="0">
-                    <div class="imogi">🏣</div>
-                    <h3>Great Facilities</h3>
-                    <p>Modern labs, a vast library, and serene learning spaces.</p>
+                <div data-aos="fade-up" data-aos-delay="0">
+                    <div class="item">
+                        <div class="imogi">🏣</div>
+                        <h3>Great Facilities</h3>
+                        <p>Modern labs, a vast library, and serene learning spaces.</p>
+                    </div>
                 </div>
-                <div class="item" data-aos="fade-up" data-aos-delay="0">
-                    <div class="imogi">👥</div>
-                    <h3>Holistic Student Life</h3>
-                    <p>Yoga, meditation, and community events for balanced growth.</p>
+                <div data-aos="fade-up" data-aos-delay="0">
+                    <div class="item">
+                        <div class="imogi">👥</div>
+                        <h3>Holistic Student Life</h3>
+                        <p>Yoga, meditation, and community events for balanced growth.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -86,92 +105,100 @@
             <h3 data-aos="fade-up">
                 About Us
             </h3>
-            <div class="info-college"data-aos="fade-up" >
-                <div class="info-main" id="College">
-                    <div class="media2"data-aos="fade-up"data-aos="fade-up">
-                        <img src="ASSETS/image/download.png" alt="">
-                    </div>
-                    <div class="para2">
-                        <h4 data-aos="fade-up">Radharaman Ayurveda Medical College Research Hospital</h4>
-                        <p data-aos="fade-up" data-aos-delay="300">The group is well known for innovation and academic excellence. RGI combines best of both the
-                            worlds. Here the technology, individuality & independence of the west are blended in right
-                            proportion with the culture, traditions & sensitivity of the east. The success story of
-                            Radharaman Group of Institutes begins in the year 2003 when the Typasya Education Society
-                            launched its first Medical College i.e.Radharaman Ayurveda Medical College Research Hospital
-                        </p>
+            <div class="info-college">
+                <div data-aos="fade-up">
+                    <div class="info-main" id="College">
+                        <div class="media2">
+                            <img src="ASSETS/image/download.png" alt="Radharaman Ayurveda Medical College building">
+                        </div>
+                        <div class="para2">
+                            <h4 data-aos="fade-up">Radharaman Ayurveda Medical College Research Hospital</h4>
+                            <p data-aos="fade-up" data-aos-delay="300">The group is well known for innovation and academic excellence. RGI combines best of both the
+                                worlds. Here the technology, individuality & independence of the west are blended in right
+                                proportion with the culture, traditions & sensitivity of the east. The success story of
+                                Radharaman Group of Institutes begins in the year 2003 when the Typasya Education Society
+                                launched its first Medical College i.e.Radharaman Ayurveda Medical College Research Hospital
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="info-body" data-aos="fade-up">
-
-                <div class="media-main" data-aos="fade-up">
-
-                    <div class="media1" data-aos="fade-up">
-                        <img src="ASSETS/image/chairman.jpg" alt="">
-                    </div>
-                    <div class="para" data-aos="fade-up">
-                        <h4>
-                            Chairman's Message
-                        </h4>
-                        <p data-aos="fade-up" data-aos-delay="300">
-                            Welcome to Radharaman Ayurved Medical College Research Hospital, Bhopal. Established in 2003
-                            under the Tapasya Shiksha Samiti and led by former professors and alumni of MANIT, our
-                            institution aims to prepare the younger generation for the future through Ayurveda. Our
-                            mission is to develop each student's potential, helping them become top clinicians,
-                            academics, researchers, and entrepreneurs who serve as brand ambassadors for Ayurveda. We
-                            focus on the all-round development of our students, motivating them to become responsible
-                            citizens and high-standard medical professionals for the welfare of the people.
-                        <h6>R.R.Saxena, Chairman RGI</h6>
-                        </p>
+            <div class="info-body">
+                <div data-aos="fade-up">
+                    <div class="media-main">
+                        <div class="media1">
+                            <img src="ASSETS/image/chairman.jpg" alt="R.R.Saxena, Chairman RGI">
+                        </div>
+                        <div class="para">
+                            <h4>
+                                Chairman's Message
+                            </h4>
+                            <p data-aos="fade-up" data-aos-delay="300">
+                                Welcome to Radharaman Ayurved Medical College Research Hospital, Bhopal. Established in 2003
+                                under the Tapasya Shiksha Samiti and led by former professors and alumni of MANIT, our
+                                institution aims to prepare the younger generation for the future through Ayurveda. Our
+                                mission is to develop each student's potential, helping them become top clinicians,
+                                academics, researchers, and entrepreneurs who serve as brand ambassadors for Ayurveda. We
+                                focus on the all-round development of our students, motivating them to become responsible
+                                citizens and high-standard medical professionals for the welfare of the people.
+                            <h6>R.R.Saxena, Chairman RGI</h6>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="update" id="Events" data-aos="fade-up">
+        <section class="update" id="Events">
             <h3 data-aos="fade-up">News&Events</h3>
-            <div class="update-body"data-aos="fade-up">
-                <div class="update-card"data-aos="fade-up">
-                    <div class="media-card">
-                        <img src="ASSETS/image/528649719_1213503050793366_9072583007387189483_n.jpg" alt="">
-                        <div class="parag">
-                            <h4>World Breastfeeding Week 2025</h4>
-                            <p>On the occasion of World Breastfeeding Week 2025, Radharaman Institute of Nursing,
-                                Bhopal's B.Sc. Nursing and GNM</p>
-
+            <div class="update-body">
+                <div data-aos="fade-up">
+                    <div class="update-card">
+                        <div class="media-card">
+                            <img src="ASSETS/image/528649719_1213503050793366_9072583007387189483_n.jpg" alt="Students at World Breastfeeding Week 2025 event">
+                            <div class="parag">
+                                <h4>World Breastfeeding Week 2025</h4>
+                                <p>On the occasion of World Breastfeeding Week 2025, Radharaman Institute of Nursing,
+                                    Bhopal's B.Sc. Nursing and GNM</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="update-card"data-aos="fade-up">
-                    <div class="media-card">
-                        <img src="ASSETS/image/rj-green.jpg" alt="">
-                        <div class="parag">
-                            <h4>
-                                Tree plantation programme
-                            </h4>
-                            <p>Tree plantation programme concluded at Radharaman Ayurveda College campus, MY FM's RJ
-                                Geet
-                                was present.</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="update-card"data-aos="fade-up">
-                    <div class="media-card">
-                        <img src="ASSETS/image/pcod.jpg" alt="">
-                        <div class="parag">
-                            <h4>Talk Show</h4>
-                            <p>Radharaman Ayurvedic College organised a PCOD talk show where students learnt about the
-                                causes, symptom and treatment.</p>
+                <div data-aos="fade-up">
+                    <div class="update-card">
+                        <div class="media-card">
+                            <img src="ASSETS/image/rj-green.jpg" alt="Tree plantation programme with MY FM's RJ Geet">
+                            <div class="parag">
+                                <h4>
+                                    Tree plantation programme
+                                </h4>
+                                <p>Tree plantation programme concluded at Radharaman Ayurveda College campus, MY FM's RJ
+                                    Geet
+                                    was present.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="update-card"data-aos="fade-up">
-                    <div class="media-card">
-                        <img src="ASSETS/image/competation.jpg" alt="">
-                        <div class="parag">
-                            <h4>Inter-state Dance Competation</h4>
-                            <p>A wonderful confluence of culture and art at the Radharaman Interstate Dance Competition!
-                            </p>
+                <div data-aos="fade-up">
+                    <div class="update-card">
+                        <div class="media-card">
+                            <img src="ASSETS/image/pcod.jpg" alt="PCOD talk show for students">
+                            <div class="parag">
+                                <h4>Talk Show</h4>
+                                <p>Radharaman Ayurvedic College organised a PCOD talk show where students learnt about the
+                                    causes, symptom and treatment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up">
+                    <div class="update-card">
+                        <div class="media-card">
+                            <img src="ASSETS/image/competation.jpg" alt="Inter-state Dance Competition at Radharaman">
+                            <div class="parag">
+                                <h4>Inter-state Dance Competation</h4>
+                                <p>A wonderful confluence of culture and art at the Radharaman Interstate Dance Competition!
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -188,14 +215,15 @@
                 </p>
                 <div class="socials">
                     <a href="https://www.facebook.com/RGIbhopalof" target="_blank" rel="noopener noreferrer"><img
-                            src="ASSETS/image/facebook-svgrepo-com.svg" alt=""></i></a>
-                    <a href="https://x.com/rgi1bhopal" target="_blank" rel="noopener noreferrer"><i
-                            class="twitter"></i><img src="ASSETS/image/twitter-color-svgrepo-com.svg" alt=""></a>
-                    <a href="https://www.instagram.com/rgibhopalofficial/" target="_blank" rel="noopener noreferrer"><i
-                            class="instagram"></i><img src="ASSETS/image/instagram-1-svgrepo-com.svg" alt=""></a>
+                            src="ASSETS/image/facebook-svgrepo-com.svg" alt="Visit our Facebook page"></a>
+                    <a href="https://x.com/rgi1bhopal" target="_blank" rel="noopener noreferrer"><img
+                            src="ASSETS/image/twitter-color-svgrepo-com.svg" alt="Visit our X (Twitter) page"></a>
+                    <a href="https://www.instagram.com/rgibhopalofficial/" target="_blank"
+                        rel="noopener noreferrer"><img src="ASSETS/image/instagram-1-svgrepo-com.svg"
+                            alt="Visit our Instagram page"></a>
                     <a href="https://www.linkedin.com/school/radharaman-institute-of-technology-and-science/posts/?feedView=all"
-                        target="_blank" rel="noopener noreferrer"><i class="linkedin"></i><img
-                            src="ASSETS/image/linkedin-svgrepo-com.svg" alt=""></a>
+                        target="_blank" rel="noopener noreferrer"><img src="ASSETS/image/linkedin-svgrepo-com.svg"
+                            alt="Visit our LinkedIn page"></a>
                 </div>
             </div>
             <div class="footer-section links-footer">
@@ -210,26 +238,69 @@
             </div>
             <div class="footer-section contact-footer">
                 <h4>Contact Us</h4>
-                <span><i class="fas fa-map-marker-alt"></i> &nbsp; Radharaman Ayurveda Medical College, Fatehpur Dobra,
+                <span>&nbsp; Radharaman Ayurveda Medical College, Fatehpur Dobra,
                     Ratibad, Bhopal (M.P.)</span>
-                <span><i class="fas fa-phone"></i> &nbsp; +91-9876543210</span>
-                <span><i class="e-mail"></i> &nbsp; info@radharamanayurved.com</span>
+                <span>&nbsp; +91-9876543210</span>
+                <span>&nbsp; info@radharamanayurved.com</span>
             </div>
         </div>
         <div class="footer-bottom">
             &copy; 2025 Radharaman Ayurveda Medical College Research Hospital | All Rights Reserved <a
                 href="https://www.linkedin.com/in/ankit-kumar-98102b24a/" target="_blank"
-                rel="noopener noreferrer">Created By Ankit <img src="ASSETS/image/linkedin-svgrepo-com.svg" alt=""></a>
+                rel="noopener noreferrer">Created By Ankit <img src="ASSETS/image/linkedin-svgrepo-com.svg" alt="Ankit's LinkedIn Profile"></a>
         </div>
     </footer>
 </body>
- <script>
-        AOS.init({
-            duration: 1000,
-            once: true,
-            offset: 100,
-            easing: 'ease-in-out'
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100,
+        easing: 'ease-in-out'
 
-        });
-    </script>
+    });
+</script>
+
+<script>
+    // Mobile menu toggle: open/close .menuISclicked when hamburger clicked
+    (function(){
+        const hamburger = document.querySelector('.hamburger');
+        const menu = document.querySelector('.menuISclicked');
+        const closeBtn = menu && menu.querySelector('.menu-close');
+
+        function openMenu(){
+            menu.classList.add('open');
+            menu.setAttribute('aria-hidden', 'false');
+            hamburger.setAttribute('aria-expanded', 'true');
+            const firstLink = menu.querySelector('a');
+            if(firstLink) firstLink.focus();
+        }
+
+        function closeMenu(){
+            menu.classList.remove('open');
+            menu.setAttribute('aria-hidden', 'true');
+            hamburger.setAttribute('aria-expanded', 'false');
+            hamburger.focus();
+        }
+
+        if(hamburger && menu){
+            hamburger.addEventListener('click', (e)=>{
+                e.stopPropagation();
+                if(menu.classList.contains('open')) closeMenu(); else openMenu();
+            });
+
+            closeBtn && closeBtn.addEventListener('click', (e)=>{ e.stopPropagation(); closeMenu(); });
+
+            // close when clicking outside
+            document.addEventListener('click', (e)=>{ if(menu.classList.contains('open') && !menu.contains(e.target) && !hamburger.contains(e.target)) closeMenu(); });
+
+            // close on Escape
+            document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape' && menu.classList.contains('open')) closeMenu(); });
+
+            // close when any link is clicked (navigating)
+            menu.querySelectorAll('a').forEach(a=> a.addEventListener('click', ()=> closeMenu()));
+        }
+    })();
+</script>
+
 </html>
