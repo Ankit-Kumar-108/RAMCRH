@@ -328,7 +328,7 @@ h1 {
 }
 
 .media1 {
-    height: 275px;
+    height: 333px;
     width: 266px;
     background-color: aqua;
     border-radius: 25px;
@@ -336,6 +336,9 @@ h1 {
 
 .media1 img {
     border-radius: 25px;
+    width: 100%;
+    object-fit: contain;
+
 }
 
 .para {
