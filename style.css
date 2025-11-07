@@ -49,6 +49,20 @@ nav {
     font-size: 20px;
 }
 
+.links a:hover{
+     content: "";
+    position: absolute;
+bottom: 10px;
+height: 3px;
+left: 0;
+width: 0;
+background-color: #00be00;
+}
+
+.links a::after{
+    width: 100%;
+}
+
 .links button {
     height: 40px;
     width: 125px;
@@ -428,7 +442,7 @@ h1 {
 
 footer {
     width: 100%;
-    background-color: rgb(1, 35, 1);
+    background-color: #012301;
     color: #f0f0f0;
     padding-top: 40px;
 }
@@ -497,12 +511,13 @@ footer {
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
-    transition: color 0.3s, padding-left 0.3s;
+    transition: color 0.3s ease;
 }
 
 .footer-section.links-footer ul li a:hover {
-    color: gold;
+    color: rgba(255, 111, 0, 0.862);
     padding-left: 5px;
+    transform: translate(-1px,-1px);
 }
 
 .footer-section.contact-footer span {
@@ -515,8 +530,12 @@ footer {
     margin-right: 10px;
     color: #00be00;
 }
-
-
+.footer-section h4{
+    text-align: center;
+}
+.contact-footer span{
+text-align: center;
+}
 .footer-bottom {
     background-color: #000;
     color: #aaa;
@@ -547,6 +566,10 @@ footer {
 
 .footer-bottom a:hover {
     color: yellow;
+}
+
+.media a{
+width: 70px;
 }
 
 @media (max-width: 833px) {
